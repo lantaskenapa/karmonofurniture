@@ -759,8 +759,11 @@ th {
     flex-direction: column;
     gap: 18px;
   }
-  .form-group.half { flex: none; }
-}
+/* Biar “Tanggal Mulai” dan “Estimasi Pengerjaan” jadi full lebar */
+  .form-group.half {
+    flex: none !important;
+    width: 100% !important;
+  }
 
 /* ICON + PASTEL DI JUDUL MODAL */
 .modal-plus-icon {
@@ -965,3 +968,4 @@ th {
 .urgensi-container-revised {
   margin-top: 0; 
 }
+
