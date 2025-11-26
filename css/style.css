@@ -755,11 +755,12 @@ th {
 
 /* Mobile responsif */
 @media (max-width: 480px) {
-  .form-row {
-    flex-direction: column;
-    gap: 18px;
+.form-row {
+    flex-direction: column !important;   /* jadi atas-bawah */
+    gap: 18px !important;
   }
-/* Biar “Tanggal Mulai” dan “Estimasi Pengerjaan” jadi full lebar */
+
+  /* Biar “Tanggal Mulai” dan “Estimasi Pengerjaan” jadi full lebar */
   .form-group.half {
     flex: none !important;
     width: 100% !important;
@@ -968,4 +969,5 @@ th {
 .urgensi-container-revised {
   margin-top: 0; 
 }
+
 
